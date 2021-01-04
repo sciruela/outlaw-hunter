@@ -1184,6 +1184,7 @@ MonoBehaviour:
   aCowboys:
   - {fileID: 21300000, guid: 2f76deb5f50a7ea448976e5c7b5cf118, type: 3}
   - {fileID: 21300000, guid: f2dcac93d9c8c9e4494d8d6675f766ad, type: 3}
+  - {fileID: 21300000, guid: 6f1f3805d6d0ac84fb7833b87a1d6d05, type: 3}
   parentPanel: {fileID: 318170577}
   scoreText: {fileID: 1509053793}
 --- !u!114 &1599557417
