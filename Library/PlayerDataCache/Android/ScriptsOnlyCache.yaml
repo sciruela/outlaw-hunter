@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - ExitButton
     - HelpButton
     - HelpDialog
+    - HighScoreText
     - LeftButton
     - MusicButton
     - RightButton
@@ -35,7 +36,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/finish-screen .unity:
+    Assets/Scenes/finish-screen.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -73,13 +74,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12182}
     - Class: 114
-      Script: {instanceID: 12886}
+      Script: {instanceID: 12372}
     - Class: 114
-      Script: {instanceID: 13644}
+      Script: {instanceID: 12888}
     - Class: 114
-      Script: {instanceID: 14206}
+      Script: {instanceID: 13646}
     - Class: 114
-      Script: {instanceID: 14260}
+      Script: {instanceID: 14208}
+    - Class: 114
+      Script: {instanceID: 14262}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -132,17 +135,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12182}
     - Class: 114
-      Script: {instanceID: 12886}
+      Script: {instanceID: 12888}
     - Class: 114
-      Script: {instanceID: 13490}
+      Script: {instanceID: 13492}
     - Class: 114
-      Script: {instanceID: 13644}
+      Script: {instanceID: 13646}
     - Class: 114
-      Script: {instanceID: 14188}
+      Script: {instanceID: 14190}
     - Class: 114
-      Script: {instanceID: 14242}
+      Script: {instanceID: 14244}
     - Class: 114
-      Script: {instanceID: 14260}
+      Script: {instanceID: 14262}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -197,15 +200,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12298}
     - Class: 114
-      Script: {instanceID: 12886}
+      Script: {instanceID: 12372}
     - Class: 114
-      Script: {instanceID: 13644}
+      Script: {instanceID: 12888}
     - Class: 114
-      Script: {instanceID: 13704}
+      Script: {instanceID: 13646}
     - Class: 114
-      Script: {instanceID: 14206}
+      Script: {instanceID: 13706}
     - Class: 114
-      Script: {instanceID: 14260}
+      Script: {instanceID: 14208}
+    - Class: 114
+      Script: {instanceID: 14262}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -487,6 +492,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HelpButton
+  - hash:
+      serializedVersion: 2
+      Hash: d58dc70f3a2342bfeec829317482d078
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HighScoreText
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -773,5 +784,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/start-screen.unity
   - Assets/Scenes/game-loop.unity
-  - Assets/Scenes/finish-screen .unity
+  - Assets/Scenes/finish-screen.unity
   playerPath: C:/Users/CIRUELSE/UnityProjects/outlaw-hunter/output.apk
