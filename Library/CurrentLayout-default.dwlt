@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 103
+  controlID: 36
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 104
+  controlID: 37
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -397,7 +397,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1cf8ffff2ef8ffff34f8ffff3cf8ffff44f8ffff98f8ffffaaf8ffff54f9ffff58f9ffff66f9ffff5efbffff
+      m_ExpandedIDs: b6f7ffffc8f7ffff72f8ffff76f8ffff84f8ffff5efbffff36390000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -601,20 +601,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Images
   m_ViewMode: 1
   m_StartGridSize: 78
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Images
   m_LastFoldersGridSize: 78
   m_LastProjectPath: C:\Users\CIRUELSE\UnityProjects\outlaw-hunter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b2390000
-    m_LastClickedID: 14770
-    m_ExpandedIDs: 000000009c3900009e390000a0390000a239000000ca9a3b
+    m_SelectedIDs: ae390000
+    m_LastClickedID: 14766
+    m_ExpandedIDs: 000000009e390000a0390000a2390000a439000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -642,7 +642,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009c3900009e390000a0390000a2390000
+    m_ExpandedIDs: 000000009e390000a0390000a2390000a4390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -669,7 +669,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
