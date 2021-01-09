@@ -1190,6 +1190,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a619bd074992fac4592a035daf7d66c4, type: 3}
   - {fileID: 21300000, guid: 08a0f3f6cce19634dbff0fa5f7fa7003, type: 3}
   - {fileID: 21300000, guid: 14d091caee4279a4ebc7cb5921114c77, type: 3}
+  - {fileID: 21300000, guid: 2d3eb44c6d1369b43bf5248a319adf5d, type: 3}
+  - {fileID: 21300000, guid: 679a81188a320d14c9043ed473f263a8, type: 3}
   parentPanel: {fileID: 318170577}
   scoreText: {fileID: 1509053793}
 --- !u!114 &1599557417
