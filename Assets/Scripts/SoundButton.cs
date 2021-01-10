@@ -9,15 +9,28 @@ public class SoundButton : MonoBehaviour
     public Sprite soundOn;
     public Sprite soundOff;
 
-    public void doChangeSoundImage()
-    {
-        if (soundButton.GetComponent<Image>().sprite == soundOn)
+    public void Start(){
+        if (PlayerPrefs.GetInt("Sound") == 1)
         {
             soundButton.GetComponent<Image>().sprite = soundOff;
         }
         else
         {
             soundButton.GetComponent<Image>().sprite = soundOn;
+        }
+    }
+
+    public void doChangeSoundImage()
+    {
+        if (soundButton.GetComponent<Image>().sprite == soundOn)
+        {
+            soundButton.GetComponent<Image>().sprite = soundOff;
+            PlayerPrefs.SetInt("Sound", 1);
+        }
+        else
+        {
+            soundButton.GetComponent<Image>().sprite = soundOn;
+            PlayerPrefs.SetInt("Sound", 0);
         }
     }
 }

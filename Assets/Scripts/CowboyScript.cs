@@ -21,6 +21,13 @@ public class CowboyScript : MonoBehaviour
             AudioSource oAudioSourceBang2 = new GameObject().AddComponent<AudioSource>();
             oAudioSourceBang2.name = "Bang2";
             oAudioSourceBang2.clip = oAudioBang2;
+
+            if (PlayerPrefs.GetInt("Sound") == 1){
+                oAudioSourceBang2.volume = 0;
+            } else {
+                oAudioSourceBang2.volume = 1;
+            }
+
             oAudioSourceBang2.Play();
             oAudioSourceBang2.transform.parent = null;
             Destroy(oAudioSourceBang2.gameObject, 1);
@@ -31,6 +38,12 @@ public class CowboyScript : MonoBehaviour
             AudioSource oAudioSource = new GameObject().AddComponent<AudioSource>();
             oAudioSource.name = "Hurt";
             oAudioSource.clip = oAudioBang1;
+                if (PlayerPrefs.GetInt("Sound") == 1) {
+                    oAudioSource.volume = 0;
+                } else {
+                    oAudioSource.volume = 1;
+                }
+
             oAudioSource.Play();
             oAudioSource.transform.parent = null;
             Destroy(oAudioSource.gameObject, 1);

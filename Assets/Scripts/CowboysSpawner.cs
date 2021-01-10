@@ -52,6 +52,13 @@ public class CowboysSpawner : MonoBehaviour
             AudioSource oAudioSource = new GameObject().AddComponent<AudioSource>();
             oAudioSource.name = "Bang";
             oAudioSource.clip = oAudioBang1;
+
+            if (PlayerPrefs.GetInt("Sound") == 1){
+                oAudioSource.volume = 0;
+            } else {
+                oAudioSource.volume = 1;
+            }
+                
             oAudioSource.Play();
             oAudioSource.transform.parent = null;
             Destroy(oAudioSource.gameObject, 1);
@@ -98,6 +105,16 @@ public class CowboysSpawner : MonoBehaviour
         AudioSource oAudioSource = new GameObject().AddComponent<AudioSource>();
         oAudioSource.name = "Whistle";
         oAudioSource.clip = oAudioWhistle1;
+
+        if (PlayerPrefs.GetInt("Sound") == 1)
+        {
+            oAudioSource.volume = 0;
+        }
+        else
+        {
+            oAudioSource.volume = 1;
+        }
+
         oAudioSource.Play();
         oAudioSource.transform.parent = null;
         Destroy(oAudioSource.gameObject, 1);
