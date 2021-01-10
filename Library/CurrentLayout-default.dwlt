@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 102
+  controlID: 57
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -395,9 +395,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3e3e0000
-      m_LastClickedID: 15934
-      m_ExpandedIDs: 7af8ffff8ef8ffff90f8ffff94f8ffff98f8ffff2ef9ffff42f9ffffeaf9fffff6f9fffffef9ffff5efbffff1c3e0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: dcf4ffff18f5ffff2cf5ffff2ef5ffff32f5ffff36f5ffff48f7ffffb2f7ffffc6f7ffff6ef8ffff7af8ffff82f8ffff5efbffffd6380000a63c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
