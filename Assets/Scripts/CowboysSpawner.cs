@@ -96,7 +96,7 @@ public class CowboysSpawner : MonoBehaviour
         spriteCowboy.GetComponent<RectTransform>().SetParent(parentPanel.transform);
         spriteCowboy.SetActive(true);
       
-        iPositionx = UnityEngine.Random.Range(100, 2000);
+        iPositionx = UnityEngine.Random.Range(100, 1200);
         iPositiony = UnityEngine.Random.Range(100, 200);
 
         spriteCowboy.GetComponent<RectTransform>().position = new Vector3(iPositionx, iPositiony, 0);
