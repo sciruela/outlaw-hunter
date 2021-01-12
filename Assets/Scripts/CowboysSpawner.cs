@@ -27,8 +27,8 @@ public class CowboysSpawner : MonoBehaviour
     {
         iScoreCounter = 0;
         iCowboys = 1 ;
-        scoreText.GetComponent<Text>().text = "SCORE: " + getScore().ToString();
-        InvokeRepeating("doCreateCowboy", 0.0f, 3.0f);
+        scoreText.GetComponent<Text>().text = "Score: " + getScore().ToString();
+        InvokeRepeating("doCreateCowboy", 0.0f, 1.5f);
     }
     void Update()
     {
@@ -65,7 +65,7 @@ public class CowboysSpawner : MonoBehaviour
 
             iScore = getScore();
 
-            scoreText.GetComponent<Text>().text = "SCORE: " + iScore.ToString();
+            scoreText.GetComponent<Text>().text = "Score: " + iScore.ToString();
 
             if (iScore > PlayerPrefs.GetInt("HighScore")) PlayerPrefs.SetInt("HighScore", iScore);
 
@@ -85,7 +85,7 @@ public class CowboysSpawner : MonoBehaviour
         GetComponent<Image>().enabled = true;
 
         spriteCowboy = new GameObject();
-        spriteCowboy.name = "CowboyImage"+iCowboys;
+        spriteCowboy.name = "CowboyImage" + iCowboys;
         Image newImage = spriteCowboy.AddComponent<Image>();
         CowboyScript oCowboyScript = spriteCowboy.AddComponent<CowboyScript>();
         GameObject newGameObject = newImage.gameObject;
@@ -95,8 +95,14 @@ public class CowboysSpawner : MonoBehaviour
         newImage.sprite = aCowboys[iRandomCowboy];
         spriteCowboy.GetComponent<RectTransform>().SetParent(parentPanel.transform);
         spriteCowboy.SetActive(true);
-      
-        iPositionx = UnityEngine.Random.Range(100, 1200);
+
+
+        if (GameObject.FindGameObjectWithTag("Background").GetComponent<RectTransform>().position[0] >= 500.0f) { 
+            iPositionx = UnityEngine.Random.Range(20, 1810);
+        }else{
+            iPositionx = UnityEngine.Random.Range(-810, 1020);
+        }
+
         iPositiony = UnityEngine.Random.Range(100, 200);
 
         spriteCowboy.GetComponent<RectTransform>().position = new Vector3(iPositionx, iPositiony, 0);

@@ -14,7 +14,7 @@ public class CowboyScript : MonoBehaviour
      timer += Time.deltaTime;
      int seconds = (int) ( timer % 60 );
 
-        if (seconds >= 4.0f)
+        if (seconds >= 3.0f)
         {
             AudioClip oAudioBang2 = Resources.Load<AudioClip>("Audio/bang2");
 

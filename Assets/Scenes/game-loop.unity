@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 318170579}
   m_Layer: 5
   m_Name: Background
-  m_TagString: Untagged
+  m_TagString: Background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.11400001}
   m_AnchorMin: {x: 0.055300094, y: 0}
   m_AnchorMax: {x: 0.933, y: 1}
-  m_AnchoredPosition: {x: 415, y: -1.800003}
+  m_AnchoredPosition: {x: 415, y: -1.7999878}
   m_SizeDelta: {x: 1405.2051, y: 20.781189}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318170579
