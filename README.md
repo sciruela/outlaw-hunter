@@ -9,4 +9,8 @@ The songs were created by Lobo Loco. In the following link you can enjoy many mo
 
 ![Lobo Loco](https://www.musikbrause.de/)
 
+[![Youtube](https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg)](https://www.youtube.com/watch?v=VJVGhqpjChk)
+
+[![Download](http://codekiem.com/wp-content/uploads/2012/02/apk-big.png)](https://github.com/sciruela/outlaw-hunter/blob/main/output.apk?raw=true)
+
 
