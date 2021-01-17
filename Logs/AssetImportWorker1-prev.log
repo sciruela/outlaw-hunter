@@ -1,0 +1,750 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16227 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/CIRUELSE/UnityProjects/outlaw-hunter
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51594
+Successfully changed project path to: C:/Users/CIRUELSE/UnityProjects/outlaw-hunter
+C:/Users/CIRUELSE/UnityProjects/outlaw-hunter
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 73.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/CIRUELSE/UnityProjects/outlaw-hunter/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     8113 MB
+    Driver:   25.20.100.6472
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.169896 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 43.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.365 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.050460 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 49.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.217 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1781 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.5 MB.
+System memory in use after: 83.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2225.
+Total: 3.108000 ms (FindLiveObjects: 0.247600 ms CreateObjectMapping: 0.108900 ms MarkObjects: 2.676900 ms  DeleteObjects: 0.073000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/CowboyScript.cs
+  artifactKey: Guid(45d2d518649c6cc49997f8124a597d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboyScript.cs using Guid(45d2d518649c6cc49997f8124a597d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4be463a96401ab7d587cdac4e08e75') in 0.101700 seconds
+  Import took 0.106940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000916 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038998 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000616 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034350 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000708 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.005543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125896 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000566 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032414 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000575 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121915 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000531 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030649 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000480 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120921 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000487 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028768 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000455 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138445 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000471 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029904 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000529 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125372 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000585 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030923 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000579 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.005322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139635 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000500 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030376 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000530 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026520 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000431 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.123105 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000607 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.005801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033388 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000453 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022772 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000883 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.006034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.252666 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000483 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029586 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000513 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121055 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000494 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026191 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000544 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127164 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000677 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029090 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000502 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018534 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000392 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119953 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000484 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027889 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000373 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125676 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000518 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033121 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000586 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121679 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000479 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028597 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000392 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.124001 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000567 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.005242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028813 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000572 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.005400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120779 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000443 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031007 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000514 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.004022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133618 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000652 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.005234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028856 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000596 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.005722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121641 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000564 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031792 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000381 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129219 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000481 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036529 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000426 seconds
+  ERROR: Build asset version error: assets/scripts/cowboysspawner.cs in SourceAssetDB has modification time of '2021-01-12T13:22:02.9740091Z' while content on disk has modification time of '2021-01-16T20:37:50.89621Z'
+  Import took 0.003434 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1774 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.2 MB.
+System memory in use after: 83.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2227.
+Total: 2.306900 ms (FindLiveObjects: 0.199200 ms CreateObjectMapping: 0.085900 ms MarkObjects: 1.991800 ms  DeleteObjects: 0.028600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.110544 seconds.
+  path: Assets/Scripts/CowboysSpawner.cs
+  artifactKey: Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CowboysSpawner.cs using Guid(b7b0d39b2aee56b45b0e5135991ce61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159569e86ce5ce714b70aab5e33c6006') in 0.013806 seconds
+  Import took 0.017915 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.5 MB.
+System memory in use after: 48.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2227.
+Total: 3.918100 ms (FindLiveObjects: 0.307400 ms CreateObjectMapping: 0.138300 ms MarkObjects: 3.450400 ms  DeleteObjects: 0.020000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13218.581228 seconds.
+  path: Assets/Images/arrow-left-button.png
+  artifactKey: Guid(bacfea05c9556554abf02235336ffb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/arrow-left-button.png using Guid(bacfea05c9556554abf02235336ffb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedff3291cfa3fc942af7723bb3f4cd9') in 1.122389 seconds
+  Import took 1.180186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Images/grave-panel.png
+  artifactKey: Guid(b9d1b14c27d19ef4fa355bd32af44caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/grave-panel.png using Guid(b9d1b14c27d19ef4fa355bd32af44caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f91b286f7e6f5bf28e48871e5f9e4b') in 0.081527 seconds
+  Import took 0.085557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Images/icon-sound-enabled.png
+  artifactKey: Guid(f13c2e3d43376114fa7d22ad9c1e3754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/icon-sound-enabled.png using Guid(f13c2e3d43376114fa7d22ad9c1e3754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06c16cdbd5938c1f6b745d9f922d080') in 0.051693 seconds
+  Import took 0.055338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Images/cowboy1.png
+  artifactKey: Guid(2f76deb5f50a7ea448976e5c7b5cf118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/cowboy1.png using Guid(2f76deb5f50a7ea448976e5c7b5cf118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f8b1efe3e7183c561d3c58c59bc876') in 0.090283 seconds
+  Import took 0.093916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Images/help-dialog.png
+  artifactKey: Guid(5afcfdb1a3c37d247acdf6759b5f0130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/help-dialog.png using Guid(5afcfdb1a3c37d247acdf6759b5f0130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7a06b78aacc0a3d0d5cf398b601491') in 0.059367 seconds
+  Import took 0.062630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Images/cowboy4.png
+  artifactKey: Guid(d89cce2f8f9629d4ea9f6198998927b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/cowboy4.png using Guid(d89cce2f8f9629d4ea9f6198998927b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781b9435831b672c6237e8f16c360140') in 0.065723 seconds
+  Import took 0.069459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Images/title-outlaws.png
+  artifactKey: Guid(d03205ff69f331f44aa140c36bc0dcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/title-outlaws.png using Guid(d03205ff69f331f44aa140c36bc0dcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9ed657ae2ef479a191d0593108873d') in 0.061675 seconds
+  Import took 0.065676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Images/back.png
+  artifactKey: Guid(b2796e0b84220104c9871a3f3327de00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/back.png using Guid(b2796e0b84220104c9871a3f3327de00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1873580aac2282b124372f5f764a95') in 0.050378 seconds
+  Import took 0.054071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Images/background-initial-screen.png
+  artifactKey: Guid(6ccda6542d044de4996f90a562b64658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background-initial-screen.png using Guid(6ccda6542d044de4996f90a562b64658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ade62975f99bbf99e2588f1babd1d7') in 0.212201 seconds
+  Import took 0.215726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Images/cowboy10.png
+  artifactKey: Guid(679a81188a320d14c9043ed473f263a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/cowboy10.png using Guid(679a81188a320d14c9043ed473f263a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd3655e0ee2e4eee7456806078e8b51') in 0.068510 seconds
+  Import took 0.072533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Images/exit-button.png
+  artifactKey: Guid(dfe8a44a3605cb5478970987aa6b6bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/exit-button.png using Guid(dfe8a44a3605cb5478970987aa6b6bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492610eb7f6cc4bd86aa2e661b4635ef') in 0.050464 seconds
+  Import took 0.054716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Images/cowboy9.png
+  artifactKey: Guid(2d3eb44c6d1369b43bf5248a319adf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/cowboy9.png using Guid(2d3eb44c6d1369b43bf5248a319adf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ff0dd97ea4bcdd08bb383c9dd644a1') in 0.066686 seconds
+  Import took 0.070592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Images/icon-music-enabled.png
+  artifactKey: Guid(61148ab295e0f8143b5ea62d8d8ba2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/icon-music-enabled.png using Guid(61148ab295e0f8143b5ea62d8d8ba2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ca66ff131fa6bbc5d2f4366b910a93') in 0.054069 seconds
+  Import took 0.057980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Images/cowboy8.png
+  artifactKey: Guid(14d091caee4279a4ebc7cb5921114c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/cowboy8.png using Guid(14d091caee4279a4ebc7cb5921114c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f83c2a11e03907f82cefb95f1b210e7') in 0.113519 seconds
+  Import took 0.118694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Images/start-button.png
+  artifactKey: Guid(0655c14c6888d844d82da86f42729062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/start-button.png using Guid(0655c14c6888d844d82da86f42729062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9d9b3fdfaf1d32f4d542fffc39bf99') in 0.052011 seconds
+  Import took 0.056556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Images/cowboy2.png
+  artifactKey: Guid(f2dcac93d9c8c9e4494d8d6675f766ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/cowboy2.png using Guid(f2dcac93d9c8c9e4494d8d6675f766ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bab0490888729a5db6f37a067105cf') in 0.068302 seconds
+  Import took 0.071724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Images/icon-music-disabled.png
+  artifactKey: Guid(94c7e604a3d7f8e428b9d22b1cf13b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/icon-music-disabled.png using Guid(94c7e604a3d7f8e428b9d22b1cf13b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764c12aa0972f1db8dcc5a2fb8e22cf0') in 0.043225 seconds
+  Import took 0.046821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Images/cowboy5.png
+  artifactKey: Guid(344e187c20467664c967a10f8471bc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/cowboy5.png using Guid(344e187c20467664c967a10f8471bc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e16143ffb95a680dc671501904f16ab') in 0.062526 seconds
+  Import took 0.066593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Images/help-button.png
+  artifactKey: Guid(77c3484f60e9ed749853cf1bf18a57be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/help-button.png using Guid(77c3484f60e9ed749853cf1bf18a57be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90337cf3419c14f09e2f9dfaedcd79a4') in 0.051047 seconds
+  Import took 0.054356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Images/cowboy3.png
+  artifactKey: Guid(6f1f3805d6d0ac84fb7833b87a1d6d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/cowboy3.png using Guid(6f1f3805d6d0ac84fb7833b87a1d6d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c1c58370a2495d6618e10fef0b1c79') in 0.065706 seconds
+  Import took 0.070094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Images/background-screen.png
+  artifactKey: Guid(bd610116018992544818166c17933e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background-screen.png using Guid(bd610116018992544818166c17933e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fb65ac0ce153fa204bb7d89ce9e210') in 0.108642 seconds
+  Import took 0.112972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Images/icon.png
+  artifactKey: Guid(0c2c3732f6c86ba4fbe8dc6d79820cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/icon.png using Guid(0c2c3732f6c86ba4fbe8dc6d79820cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c04e0fd5618fcd37db3a16728b40e38') in 0.077906 seconds
+  Import took 0.081439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Images/play.png
+  artifactKey: Guid(1ee1f07d4f7a6a143a657b5a75e0a743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/play.png using Guid(1ee1f07d4f7a6a143a657b5a75e0a743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf107beb7c9d4af97f5b6e14f0d14dcd') in 0.052191 seconds
+  Import took 0.055555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Images/cowboy7.png
+  artifactKey: Guid(08a0f3f6cce19634dbff0fa5f7fa7003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/cowboy7.png using Guid(08a0f3f6cce19634dbff0fa5f7fa7003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cbc9a7369a67989722aef796be22e4') in 0.076593 seconds
+  Import took 0.080219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Images/cowboy6.png
+  artifactKey: Guid(a619bd074992fac4592a035daf7d66c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/cowboy6.png using Guid(a619bd074992fac4592a035daf7d66c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35affb775957c908136f23ff0cbcccc6') in 0.067513 seconds
+  Import took 0.071063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Images/icon-sound-disabled.png
+  artifactKey: Guid(36cfc76b5a8bab84d93270699f522e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/icon-sound-disabled.png using Guid(36cfc76b5a8bab84d93270699f522e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37d94b0a973aa76bccc4cac1f3d9c52') in 0.050021 seconds
+  Import took 0.053858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Images/arrow-right-button.png
+  artifactKey: Guid(2af709c28d391974594b2e9238d2bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/arrow-right-button.png using Guid(2af709c28d391974594b2e9238d2bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df3c8c193b272eadb0ed8d5855e4826') in 0.048725 seconds
+  Import took 0.052200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.192819 seconds.
+  path: Assets/Images/zirukata.png
+  artifactKey: Guid(145ff54b9a8d4a849943c70f04d629a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/zirukata.png using Guid(145ff54b9a8d4a849943c70f04d629a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5d059a7a6513ee437def06a7d822ce') in 0.036683 seconds
+  Import took 0.042677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004113 seconds.
+  path: Assets/Images/zirukata.png
+  artifactKey: Guid(145ff54b9a8d4a849943c70f04d629a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/zirukata.png using Guid(145ff54b9a8d4a849943c70f04d629a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5d059a7a6513ee437def06a7d822ce') in 0.028185 seconds
+  Import took 0.033596 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.8 MB.
+System memory in use after: 52.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2259.
+Total: 147.625900 ms (FindLiveObjects: 0.721600 ms CreateObjectMapping: 0.292100 ms MarkObjects: 146.327600 ms  DeleteObjects: 0.280300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

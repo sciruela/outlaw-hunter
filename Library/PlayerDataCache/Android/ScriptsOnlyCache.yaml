@@ -828,4 +828,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/start-screen.unity
   - Assets/Scenes/game-loop.unity
   - Assets/Scenes/finish-screen.unity
-  playerPath: C:/Users/CIRUELSE/UnityProjects/outlaw-hunter/output.apk
+  playerPath: C:/Users/CIRUELSE/Desktop/output.apk

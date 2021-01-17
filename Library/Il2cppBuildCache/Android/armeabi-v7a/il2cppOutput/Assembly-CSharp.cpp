@@ -4082,9 +4082,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CowboysSpawner_doCreateCowboy_mCAA1D571B
 
 IL_010c:
 	{
-		// iPositionx = UnityEngine.Random.Range(-810, 1020);
+		// iPositionx = UnityEngine.Random.Range(-610, 1020);
 		int32_t L_36;
-		L_36 = Random_Range_m4B3A0037ACA057F33C94508F908546B9317D996A(((int32_t)-810), ((int32_t)1020), /*hidden argument*/NULL);
+		L_36 = Random_Range_m4B3A0037ACA057F33C94508F908546B9317D996A(((int32_t)-610), ((int32_t)1020), /*hidden argument*/NULL);
 		__this->set_iPositionx_10(L_36);
 	}
 
