@@ -1,5 +1,4 @@
 # Outlaw Hunter
- Game implemented with Unity
 
 Tap the outlaws to kill them. Hurry up or you'll be surprised.
 
@@ -7,4 +6,4 @@ Tap the outlaws to kill them. Hurry up or you'll be surprised.
 
 The songs were created by Lobo Loco. In the following link you can enjoy many more.
 
-![Lobo Loco](https://www.musikbrause.de/)
+[Lobo Loco](https://www.musikbrause.de/)
