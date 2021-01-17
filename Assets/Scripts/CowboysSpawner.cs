@@ -98,7 +98,7 @@ public class CowboysSpawner : MonoBehaviour
 
 
         if (GameObject.FindGameObjectWithTag("Background").GetComponent<RectTransform>().position[0] >= 500.0f) { 
-            iPositionx = UnityEngine.Random.Range(20, 1810);
+            iPositionx = UnityEngine.Random.Range(20, 1610);
         }else{
             iPositionx = UnityEngine.Random.Range(-610, 1020);
         }
